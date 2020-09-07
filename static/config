@@ -1,0 +1,7 @@
+[CONFIG-1.1]
+tooltips=True
+center=True
+workingdir=/root
+maximize=False
+position=0,0
+size=800,640

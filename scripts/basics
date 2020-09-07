@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -x  # All executed commands are printed to the terminal
+
+apt-get update
+apt-get install -y software-properties-common
+add-apt-repository ppa:antumdeluge/debreate
+apt-get update
+apt-get install -y debreate
+
+rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
